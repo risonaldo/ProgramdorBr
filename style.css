@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.card{
+    margin: auto;
+    margin-top: 10%;
+    padding: 1px 20px;
+    background: url("../DesafioCSS/img/backgorund.png") no-repeat;
+    width: 400px;
+    height: 200px;
+    background-size: cover; 
+    box-sizing: border-box;
+}
+#instagram{
+    list-style-image: url("./img/Insta.png");
+    list-style-position: inside;
+}
+#twt{
+
+    list-style-image: url("../DesafioCSS/img/Twitter.png");
+    list-style-position: inside;
+}
+#yb{
+    list-style-image: url("../DesafioCSS/img/Youtube.png");
+    list-style-position: inside;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
